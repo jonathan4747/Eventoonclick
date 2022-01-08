@@ -1,0 +1,104 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+/*barramenu*/
+.barramenu{
+    display: flex;
+    flex-direction: raw;
+    width: 765px;
+    border: 2px solid black;
+    height: 70px;
+    align-items: center;
+    margin-left: 180px;
+    justify-content: space-evenly;
+    background-color:rgb(150, 144, 144);
+}
+.barra{
+    border: 2px solid black;
+    width: 20px;
+    width: 300px;
+    height: 25px;
+    padding-top: 5px;
+    color: rgb(150, 144, 144);
+    background-color: white;
+    padding-left: 5px;
+}
+.login{
+    background-color: rgb(14, 138, 240);
+    border: 2px solid black;
+    font-family: 'Balsamiq Sans';
+    color: white;
+    width: 60px;
+}
+/*cuerpo*/
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+}
+.colum1{
+    width: 500px;
+    margin-left: 180px;
+    margin-top: 25px;
+}
+.cuadro,.cuadro1{
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cuadro1{
+    margin-top: 25px;
+}
+.izq{
+    flex: 1;
+    align-content: center;
+}
+.der{
+    flex:2;
+    align-content: center;
+    text-align:left;
+    margin-right: 15px;
+}
+.items{
+    text-align: center;
+}
+.likes{
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-family: 'Balsamiq Sans';
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px black;
+    background-color: rgb(192, 192, 57);
+}
+.linea1{  
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.linea2{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.linea3{
+    margin-top: 5px;
+}
+
+/*parte derecha*/
+.colum2{
+    border: 2px solid black;
+    width: 205px;
+    height: 140px;
+    margin-left: 60px;
+    margin-top:25px
+}
+.itemcolum2{
+    padding-left: 18px;
+}
+.Defined{
+    margin-left: 36px;
+    padding: 3px 25px 3px 25px;
+    font-family: 'Balsamiq Sans';
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px black;
+    background-color: rgb(60, 151, 60)
+}
